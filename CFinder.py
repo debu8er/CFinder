@@ -90,15 +90,7 @@ def file_Whoiser():
 
 
 if options.filename != None:
-    if os.path.exists('IP-Whoiser'):
-        file_Whoiser()
-    elif not os.path.exists("IP-Whoiser"):
-        os.mkdir("IP-Whoiser")
-        file_Whoiser()
+    file_Whoiser()
 
 elif options.domain != None:
-    if os.path.exists('IP-Whoiser'):
-        domain_Whoiser()
-    elif not os.path.exists("IP-Whoiser"):
-        os.mkdir("IP-Whoiser")
-        domain_Whoiser()
+    domain_Whoiser()
