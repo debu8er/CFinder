@@ -19,6 +19,13 @@ options:
                         file input.
 ```
 
+# Installation
+
+```
+1 - git clone https://github.com/debu8er/CFinder.git
+2 - cd CFinder
+```
+
 # Example command
 
 ```
