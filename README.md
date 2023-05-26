@@ -31,5 +31,5 @@ options:
 ```
 python3 CFinder.py -d domain.tld
 
-python3 CFinder.py -d domainfile
+python3 CFinder.py -f file.txt
 ```
